@@ -7,9 +7,7 @@ import {
   FaYoutube,
   FaGithub,
 } from "react-icons/fa";
-
 import { RiTwitterXLine } from "react-icons/ri";
-
 
 import "./contact.css";
 import { FiSend } from "react-icons/fi";
@@ -50,26 +48,45 @@ const Contact = () => {
           </div>
 
           <div className="contact__socials">
-            <a href="https://www.facebook.com/kim.patchara.828137/" className="contact__social-link" target="_blank">
+            <a
+              href="https://www.facebook.com/kim.patchara.828137/"
+              className="contact__social-link"
+              target="_blank"
+            >
               <FaFacebookF />
             </a>
 
-            <a href="https://x.com/KimPatchara24" className="contact__social-link" target="_blank">
-            <RiTwitterXLine />
-
+            <a
+              href="https://x.com/KimPatchara24"
+              className="contact__social-link"
+              target="_blank"
+            >
+              <RiTwitterXLine />
             </a>
 
-            <a href="https://www.youtube.com/@karimstudio6755/videos" className="contact__social-link" target="_blank">
+            <a
+              href="https://www.youtube.com/@karimstudio6755/videos"
+              className="contact__social-link"
+              target="_blank"
+            >
               <FaYoutube />
             </a>
 
-            <a href="https://github.com/kimPrompes224" className="contact__social-link" target="_blank">
+            <a
+              href="https://github.com/KimzFit"
+              className="contact__social-link"
+              target="_blank"
+            >
               <FaGithub />
             </a>
           </div>
         </div>
 
-        <form className="contact__data" action="https://formspree.io/f/mldeyrpa" method="POST">
+        <form
+          className="contact__data"
+          action="https://formspree.io/f/mldeyrpa"
+          method="POST"
+        >
           <div className="form__input-group">
             <div className="form__input-div">
               <input
@@ -91,7 +108,7 @@ const Contact = () => {
 
             <div className="form__input-div">
               <input
-              name="subject"
+                name="subject"
                 type="text"
                 className="form__control"
                 placeholder="Your Subject"
@@ -108,10 +125,10 @@ const Contact = () => {
           </div>
 
           <button className="button" type="submit">
-              Send Message
-              <span className="button__icon contact__button-icon">
-                <FiSend/>
-              </span>
+            Send Message
+            <span className="button__icon contact__button-icon">
+              <FiSend />
+            </span>
           </button>
         </form>
       </div>
