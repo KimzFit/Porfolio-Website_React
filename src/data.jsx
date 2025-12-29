@@ -18,7 +18,7 @@ import Work3 from "./assets/smart.png";
 import Work4 from "./assets/blog.png";
 import Work5 from "./assets/certification_1.png";
 import Work6 from "./assets/certification_2.png";
-import Work7 from "./assets/Secret.png";
+import Work7 from "./assets/KMITL-Equipments.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -546,12 +546,12 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Github Repo : ",
-        desc: '<a href="https://github.com/kimPrompes224/Game-Store_Frontend" target="_blank">Frontend<a/>, <a href="https://github.com/kimPrompes224/Game-Store_Backend" target="_blank">Backend<a/>',
+        desc: '<a href="https://github.com/KimzFit/Game-Store-Web-E-commerce" target="_blank" underline=true>Click Here<a/>',
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "React.js, node.js, express.js",
+        desc: "React.js, express.js",
       },
       {
         icon: <FiExternalLink />,
@@ -574,7 +574,7 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "GitHub Repo : ",
-        desc: '<a href="https://github.com/kimPrompes224/Simon-game" target="_blank">Simon-game<a/>',
+        desc: '<a href="https://github.com/KimzFit/Simon-game" target="_blank">Click Here/>',
       },
       {
         icon: <FaCode />,
@@ -584,7 +584,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: '<a href="https://londonappbrewery.github.io/Simon-Game/" target="_blank">Simon-game<a/>',
+        desc: '<a href="https://londonappbrewery.github.io/Simon-Game/" target="_blank">DEMO<a/>',
       },
     ],
   },
@@ -602,7 +602,7 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "GitHub Repo : ",
-        desc: '<a href="https://github.com/kimPrompes224/Smart-Rubbish-Bin_IOT-Project" target="_blank">Smart rubbish bin<a/>',
+        desc: '<a href="https://github.com/KimzFit/Smart-Rubbish-Bin_IOT-Project?tab=readme-ov-file" target="_blank">Click Here<a/>',
       },
       {
         icon: <FaCode />,
@@ -630,7 +630,7 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "GitHub Repo : ",
-        desc: '<a href="https://github.com/kimPrompes224/Blog-API" target="_blank">Blog-API<a/>',
+        desc: '<a href="https://github.com/KimzFit/Blog-API_Node.js" target="_blank">Click Here<a/>',
       },
       {
         icon: <FaCode />,
@@ -699,22 +699,22 @@ export const portfolio = [
   {
     id: 7,
     img: Work7,
-    title: "Secret Box",
+    title: "KMITL-Website",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Authentication Website",
+        desc: "KMITL-Equipment-inspection.",
       },
       {
         icon: <FiUser />,
         title: "GitHub Repo : ",
-        desc: '<a href="https://github.com/kimPrompes224/Secret-Box" target="_blank">Secret Box<a/>',
+        desc: '<a href="https://github.com/KimzFit/KMITL-Equipment-inspection" target="_blank">Click Here<a/>',
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "JavaScript",
+        desc: "Angular, Express.js",
       },
       {
         icon: <FiExternalLink />,
